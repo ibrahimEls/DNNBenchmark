@@ -1,9 +1,10 @@
 # Usage
 ## Installation 
 ```
-git clone
-cd DNN_Benchmark/
-conda create -n python3_mps python=3.8
+git clone git@github.com:ibrahimEls/DNNBenchmark.git
+cd DNNBenchmark/
+conda create -n python3_pytorch python=3.8
+conda activate python3_pytorch
 pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu
 pip3 install requirements.txt
 ```
